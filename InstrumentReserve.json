@@ -1,0 +1,13 @@
+{
+  "subject": "string",
+  "startTime": "2023-06-13T10:33:21.498Z",
+  "endTime": "2023-07-31T10:33:21.498Z",
+  "startTimeZone": "string",
+  "endTimeZone": "string",
+  "isAllDay": true,
+  "location": "string",
+  "description": "string",
+  "recurrenceId": "string",
+  "recurrenceException": "string",
+  "recurrenceRule": "string"
+}

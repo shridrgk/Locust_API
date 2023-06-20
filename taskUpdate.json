@@ -1,0 +1,1042 @@
+{
+  "taskTypeId": "404457bf-c683-465b-aeb1-6407267551bf",
+  "title": "NewExptask25",
+  "referenceTemplateId": "",
+  "referenceTemplateVersion": "01.001",
+  "projectId": "YG_PJ__DEMO_0001",
+  "blocks": [
+    {
+      "index": 1,
+      "taskTypeId": "404457bf-c683-465b-aeb1-6407267551bf",
+      "blockGroupId": "9af3e6aa-25bf-46c5-ae72-2ec165a083da",
+      "blockGroupTitle": "General Information",
+      "title": "General Information",
+      "componentKey": "DefaultBlockComponent",
+      "isRequired": true,
+      "isDuplicationAllowed": false,
+      "childBlocks": [],
+      "fields": [
+        {
+          "key": "DefaultTitle",
+          "index": 1,
+          "title": "Name",
+          "value": "Automation_",
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": true,
+          "isCalculated": false,
+          "fieldEditableModes": [
+            "c87c86b8-d1d1-4179-842f-2dfa04db6756",
+            "dd39bc1d-ea9f-4327-892e-6289815bc737"
+          ]
+        },
+        {
+          "key": "DefaultTags",
+          "index": 2,
+          "title": "Tags",
+          "value": "[\"tag\",\"Tag2\"]",
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": true,
+          "isCalculated": false,
+          "fieldEditableModes": [
+            "c87c86b8-d1d1-4179-842f-2dfa04db6756",
+            "dd39bc1d-ea9f-4327-892e-6289815bc737"
+          ]
+        },
+        {
+          "key": "DefaultPriority",
+          "index": 3,
+          "title": "Priority",
+          "value": "Medium",
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": true,
+          "isCalculated": false,
+          "fieldEditableModes": [
+            "3cc386f4-9d1b-44c6-9a3b-25980bf4efa0",
+            "dd39bc1d-ea9f-4327-892e-6289815bc737"
+          ]
+        },
+        {
+          "key": "DefaultDuration",
+          "index": 4,
+          "title": "Duration",
+          "value": "12:00",
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": false,
+          "isCalculated": false,
+          "fieldEditableModes": [
+            "dd39bc1d-ea9f-4327-892e-6289815bc737",
+            "3cc386f4-9d1b-44c6-9a3b-25980bf4efa0"
+          ]
+        },
+        {
+          "key": "DefaultStartDate",
+          "index": 5,
+          "title": "Start Date",
+          "value": "2023-05-29T18:30:00.000Z",
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": true,
+          "isCalculated": false,
+          "fieldEditableModes": [
+            "dd39bc1d-ea9f-4327-892e-6289815bc737",
+            "3cc386f4-9d1b-44c6-9a3b-25980bf4efa0"
+          ]
+        },
+        {
+          "key": "DefaultEndDate",
+          "index": 6,
+          "title": "End Date",
+          "value": "2023-05-29T18:30:00.000Z",
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": true,
+          "isCalculated": false,
+          "fieldEditableModes": [
+            "dd39bc1d-ea9f-4327-892e-6289815bc737",
+            "3cc386f4-9d1b-44c6-9a3b-25980bf4efa0"
+          ]
+        },
+        {
+          "key": "DefaultDescription",
+          "index": 7,
+          "title": "Objective",
+          "value": "<p>Objective</p>",
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": true,
+          "isCalculated": false,
+          "fieldEditableModes": [
+            "c87c86b8-d1d1-4179-842f-2dfa04db6756",
+            "3cc386f4-9d1b-44c6-9a3b-25980bf4efa0",
+            "dd39bc1d-ea9f-4327-892e-6289815bc737"
+          ]
+        },
+        {
+          "key": "DefaultAssignUser",
+          "index": 8,
+          "title": "Assign User",
+          "value": "[{\"id\":null,\"acceptStatus\":\"Pending\",\"userId\":\"88e8afb3729a49ec9c90ba1dc5eae508\",\"userFullName\":\"Manoj Shivashankar\",\"roleId\":\"f7bfb962-b7ed-497d-bf02-87b21d3b1b45\",\"roleName\":\"Task Owner\",\"duration\":\"12:00\",\"endDate\":\"2023-03-31\",\"startDate\":\"2023-03-10\"}]",
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": false,
+          "isCalculated": false,
+          "fieldEditableModes": [
+            "3cc386f4-9d1b-44c6-9a3b-25980bf4efa0",
+            "dd39bc1d-ea9f-4327-892e-6289815bc737"
+          ]
+        },
+        {
+          "key": "DefaultIsCompleted",
+          "index": 9,
+          "title": "Is Required",
+          "value": "",
+          "selected": false,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": false,
+          "isCalculated": false,
+          "fieldEditableModes": ["3cc386f4-9d1b-44c6-9a3b-25980bf4efa0"]
+        }
+      ],
+      "assignedUsers": [
+        {
+          "id": null,
+          "acceptStatus": "Pending",
+          "userId": "88e8afb3729a49ec9c90ba1dc5eae508",
+          "userFullName": "Manoj Shivashankar",
+          "roleId": "f7bfb962-b7ed-497d-bf02-87b21d3b1b45",
+          "roleName": "Task Owner",
+          "duration": "12:00",
+          "endDate": "2023-03-31",
+          "startDate": "2023-03-10"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "taskTypeId": "{{ExpBlockTypeId}}",
+      "blockGroupId": "458bd21e-5d34-4e83-a641-add9c23aa488",
+      "blockGroupTitle": "Steps",
+      "title": "Instruction",
+      "componentKey": "InstructionBlockComponent",
+      "isRequired": false,
+      "isDuplicationAllowed": true,
+      "childBlocks": [],
+      "fields": [
+        {
+          "key": "InstructionTitle",
+          "index": 1,
+          "title": "Name",
+          "value": "InstructionName",
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": true,
+          "isCalculated": false,
+          "fieldEditableModes": [
+            "c87c86b8-d1d1-4179-842f-2dfa04db6756",
+            "3cc386f4-9d1b-44c6-9a3b-25980bf4efa0",
+            "dd39bc1d-ea9f-4327-892e-6289815bc737"
+          ]
+        },
+        {
+          "key": "InstructionDescription",
+          "index": 2,
+          "title": "Description",
+          "value": "InstructionDescription",
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": true,
+          "isCalculated": false,
+          "fieldEditableModes": [
+            "dd39bc1d-ea9f-4327-892e-6289815bc737",
+            "3cc386f4-9d1b-44c6-9a3b-25980bf4efa0",
+            "c87c86b8-d1d1-4179-842f-2dfa04db6756"
+          ]
+        },
+        {
+          "key": "InstructionAssignUser",
+          "index": 3,
+          "title": "Assign User",
+          "value": "",
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": false,
+          "isCalculated": false,
+          "fieldEditableModes": [
+            "3cc386f4-9d1b-44c6-9a3b-25980bf4efa0",
+            "dd39bc1d-ea9f-4327-892e-6289815bc737"
+          ]
+        },
+        {
+          "key": "InstructionBrowseTemplate",
+          "index": 4,
+          "title": "Browse SOP",
+          "value": "",
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": false,
+          "isCalculated": false,
+          "fieldEditableModes": [
+            "dd39bc1d-ea9f-4327-892e-6289815bc737",
+            "3cc386f4-9d1b-44c6-9a3b-25980bf4efa0"
+          ]
+        },
+        {
+          "key": "InstructionProcedure",
+          "index": 5,
+          "title": "Procedure",
+          "value": "<p>Procedure</p>",
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": false,
+          "isCalculated": false,
+          "fieldEditableModes": [
+            "dd39bc1d-ea9f-4327-892e-6289815bc737",
+            "3cc386f4-9d1b-44c6-9a3b-25980bf4efa0",
+            "c87c86b8-d1d1-4179-842f-2dfa04db6756"
+          ]
+        },
+        {
+          "key": "DefaultIsCompleted",
+          "index": 6,
+          "title": "Is Required",
+          "value": "",
+          "selected": false,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": false,
+          "isCalculated": false,
+          "fieldEditableModes": ["3cc386f4-9d1b-44c6-9a3b-25980bf4efa0"]
+        }
+      ],
+      "assignedUsers": []
+    },
+    {
+      "index": 3,
+      "taskTypeId": "{{ExpBlockTypeId}}",
+      "blockGroupId": "458bd21e-5d34-4e83-a641-add9c23aa488",
+      "blockGroupTitle": "Steps",
+      "title": "Documentation",
+      "componentKey": "DocumentationBlockComponent",
+      "isRequired": false,
+      "isDuplicationAllowed": true,
+      "childBlocks": [],
+      "fields": [
+        {
+          "key": "DocumentationId",
+          "index": 1,
+          "title": "Document Id",
+          "value": "",
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": true,
+          "isCalculated": false,
+          "fieldEditableModes": [
+            "c87c86b8-d1d1-4179-842f-2dfa04db6756",
+            "3cc386f4-9d1b-44c6-9a3b-25980bf4efa0",
+            "dd39bc1d-ea9f-4327-892e-6289815bc737"
+          ]
+        },
+        {
+          "key": "DocumentationEditorType",
+          "index": 2,
+          "title": "Type",
+          "value": "1",
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": true,
+          "isCalculated": false,
+          "fieldEditableModes": [
+            "3cc386f4-9d1b-44c6-9a3b-25980bf4efa0",
+            "c87c86b8-d1d1-4179-842f-2dfa04db6756",
+            "dd39bc1d-ea9f-4327-892e-6289815bc737"
+          ]
+        },
+        {
+          "key": "DocumentationName",
+          "index": 3,
+          "title": "Document Name",
+          "value": "DocumentName",
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": true,
+          "isCalculated": false,
+          "fieldEditableModes": [
+            "3cc386f4-9d1b-44c6-9a3b-25980bf4efa0",
+            "c87c86b8-d1d1-4179-842f-2dfa04db6756",
+            "dd39bc1d-ea9f-4327-892e-6289815bc737"
+          ]
+        },
+        {
+          "key": "DocumentationAuthorName",
+          "index": 4,
+          "title": "Author Name",
+          "value": "AuthorName",
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": true,
+          "isCalculated": false,
+          "fieldEditableModes": [
+            "c87c86b8-d1d1-4179-842f-2dfa04db6756",
+            "3cc386f4-9d1b-44c6-9a3b-25980bf4efa0",
+            "dd39bc1d-ea9f-4327-892e-6289815bc737"
+          ]
+        },
+        {
+          "key": "DocumentationVersion",
+          "index": 5,
+          "title": "Version",
+          "value": "01.001",
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": true,
+          "isCalculated": false,
+          "fieldEditableModes": [
+            "3cc386f4-9d1b-44c6-9a3b-25980bf4efa0",
+            "c87c86b8-d1d1-4179-842f-2dfa04db6756",
+            "dd39bc1d-ea9f-4327-892e-6289815bc737"
+          ]
+        },
+        {
+          "key": "DocumentationDocumentNumber",
+          "index": 6,
+          "title": "Document Number",
+          "value": "DOCB-AB",
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": false,
+          "isCalculated": false,
+          "fieldEditableModes": [
+            "dd39bc1d-ea9f-4327-892e-6289815bc737",
+            "c87c86b8-d1d1-4179-842f-2dfa04db6756",
+            "3cc386f4-9d1b-44c6-9a3b-25980bf4efa0"
+          ]
+        },
+        {
+          "key": "DocumentationDrawingTools",
+          "index": 7,
+          "title": "Drawing Tools",
+          "value": "",
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": false,
+          "isCalculated": false,
+          "fieldEditableModes": [
+            "3cc386f4-9d1b-44c6-9a3b-25980bf4efa0",
+            "dd39bc1d-ea9f-4327-892e-6289815bc737"
+          ]
+        },
+        {
+          "key": "DocumentationSignature",
+          "index": 8,
+          "title": "Signature",
+          "value": "",
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": true,
+          "isCalculated": false,
+          "fieldEditableModes": [
+            "dd39bc1d-ea9f-4327-892e-6289815bc737",
+            "3cc386f4-9d1b-44c6-9a3b-25980bf4efa0"
+          ]
+        },
+        {
+          "key": "DocumentationAssignUser",
+          "index": 9,
+          "title": "Assign User",
+          "value": "",
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": false,
+          "isCalculated": false,
+          "fieldEditableModes": [
+            "dd39bc1d-ea9f-4327-892e-6289815bc737",
+            "3cc386f4-9d1b-44c6-9a3b-25980bf4efa0"
+          ]
+        },
+        {
+          "key": "DocumentationTags",
+          "index": 10,
+          "title": "Tags",
+          "value": "[\"Tag\",\"tag2\"",
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": false,
+          "isCalculated": false,
+          "fieldEditableModes": [
+            "c87c86b8-d1d1-4179-842f-2dfa04db6756",
+            "3cc386f4-9d1b-44c6-9a3b-25980bf4efa0",
+            "dd39bc1d-ea9f-4327-892e-6289815bc737"
+          ]
+        },
+        {
+          "key": "Documentation",
+          "index": 11,
+          "title": "Documentation",
+          "value": "",
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": true,
+          "isCalculated": false,
+          "fieldEditableModes": [
+            "c87c86b8-d1d1-4179-842f-2dfa04db6756",
+            "3cc386f4-9d1b-44c6-9a3b-25980bf4efa0",
+            "dd39bc1d-ea9f-4327-892e-6289815bc737"
+          ]
+        },
+        {
+          "key": "DefaultIsCompleted",
+          "index": 12,
+          "title": "Is Required",
+          "value": "",
+          "selected": false,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": false,
+          "isCalculated": false,
+          "fieldEditableModes": ["3cc386f4-9d1b-44c6-9a3b-25980bf4efa0"]
+        }
+      ],
+      "childBlockOptions": [],
+      "assignedUsers": []
+    },
+    {
+      "index": 4,
+      "taskTypeId": "{{ExpBlockTypeId}}",
+      "blockGroupId": "ac476758-55d2-4284-b980-1e3edde4b974",
+      "blockGroupTitle": "Experiment Block",
+      "title": "Experiment",
+      "componentKey": "ExperimentBlockComponent",
+      "isRequired": false,
+      "isDuplicationAllowed": true,
+      "childBlocks": [],
+      "fields": [
+        {
+          "key": "ExperimentTitle",
+          "index": 1,
+          "title": "Name",
+          "value": "ExperimentName",
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": true,
+          "isCalculated": false,
+          "fieldEditableModes": [
+            "dd39bc1d-ea9f-4327-892e-6289815bc737",
+            "c87c86b8-d1d1-4179-842f-2dfa04db6756",
+            "3cc386f4-9d1b-44c6-9a3b-25980bf4efa0"
+          ]
+        },
+        {
+          "key": "ExperimentDescription",
+          "index": 2,
+          "title": "Description",
+          "value": "ExperimentDescription",
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": true,
+          "isCalculated": false,
+          "fieldEditableModes": [
+            "c87c86b8-d1d1-4179-842f-2dfa04db6756",
+            "3cc386f4-9d1b-44c6-9a3b-25980bf4efa0",
+            "dd39bc1d-ea9f-4327-892e-6289815bc737"
+          ]
+        },
+        {
+          "key": "ExperimentAssignUser",
+          "index": 3,
+          "title": "Assign User",
+          "value": "",
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": false,
+          "isCalculated": false,
+          "fieldEditableModes": [
+            "3cc386f4-9d1b-44c6-9a3b-25980bf4efa0",
+            "dd39bc1d-ea9f-4327-892e-6289815bc737"
+          ]
+        },
+        {
+          "key": "ExperimentProcedure",
+          "index": 5,
+          "title": "Procedure",
+          "value": "",
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": false,
+          "isCalculated": false,
+          "fieldEditableModes": ["dd39bc1d-ea9f-4327-892e-6289815bc737"]
+        },
+        {
+          "key": "ExperimentBrowseTemplate",
+          "index": 6,
+          "title": "Browse SOP",
+          "value": "",
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": false,
+          "isCalculated": false,
+          "fieldEditableModes": ["dd39bc1d-ea9f-4327-892e-6289815bc737"]
+        },
+        {
+          "key": "ExperimentAddSteps",
+          "index": 7,
+          "title": "Add Steps",
+          "value": "",
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": false,
+          "isCalculated": false,
+          "fieldEditableModes": ["dd39bc1d-ea9f-4327-892e-6289815bc737"]
+        },
+        {
+          "key": "ExperimentSpreadSheet",
+          "index": 8,
+          "title": "SpreadSheet",
+          "value": "",
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": false,
+          "isCalculated": false,
+          "fieldEditableModes": ["dd39bc1d-ea9f-4327-892e-6289815bc737"]
+        },
+        {
+          "key": "DefaultIsCompleted",
+          "index": 9,
+          "title": "Is Required",
+          "value": "",
+          "selected": false,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": false,
+          "isCalculated": false,
+          "fieldEditableModes": ["3cc386f4-9d1b-44c6-9a3b-25980bf4efa0"]
+        }
+      ],
+      "childBlockOptions": [
+        {
+          "index": 1,
+          "taskTypeId": "{{ExpBlockTypeId}}",
+          "blockGroupId": null,
+          "blockGroupTitle": null,
+          "title": "Experiment Step",
+          "componentKey": "ExperimentStepBlock",
+          "isRequired": false,
+          "isDuplicationAllowed": false,
+          "childBlocks": null,
+          "fields": [
+            {
+              "key": "ExperimentStepValue1",
+              "index": 1,
+              "title": "Value 1",
+              "value": "",
+              "selected": true,
+              "disabled": false,
+              "isRepeatable": false,
+              "isNonConfigurable": false,
+              "isCalculated": true,
+              "fieldEditableModes": [
+                "3cc386f4-9d1b-44c6-9a3b-25980bf4efa0",
+                "dd39bc1d-ea9f-4327-892e-6289815bc737"
+              ]
+            },
+            {
+              "key": "ExperimentStepValue2",
+              "index": 2,
+              "title": "Value 2",
+              "value": "",
+              "selected": true,
+              "disabled": false,
+              "isRepeatable": false,
+              "isNonConfigurable": false,
+              "isCalculated": true,
+              "fieldEditableModes": [
+                "3cc386f4-9d1b-44c6-9a3b-25980bf4efa0",
+                "dd39bc1d-ea9f-4327-892e-6289815bc737"
+              ]
+            }
+          ]
+        }
+      ],
+      "assignedUsers": []
+    },
+    {
+      "index": 5,
+      "taskTypeId": "{{ExpBlockTypeId}}",
+      "blockGroupId": "7977f8f3-1e9c-429e-80e9-86512aadc08c",
+      "blockGroupTitle": "Result Block",
+      "title": "Result",
+      "componentKey": "ResultBlockComponent",
+      "isRequired": false,
+      "isDuplicationAllowed": true,
+      "childBlocks": [],
+      "fields": [
+        {
+          "key": "DueDate",
+          "index": 1,
+          "title": "DueDate",
+          "value": "2023-05-29T18:30:00.000Z",
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": false,
+          "isCalculated": false,
+          "fieldEditableModes": [
+            "3cc386f4-9d1b-44c6-9a3b-25980bf4efa0",
+            "dd39bc1d-ea9f-4327-892e-6289815bc737"
+          ]
+        },
+        {
+          "key": "AssignUser",
+          "index": 2,
+          "title": "Assign User",
+          "value": "[{\"id\":null,\"acceptStatus\":\"Pending\",\"userId\":\"88e8afb3729a49ec9c90ba1dc5eae508\",\"userFullName\":\"Manoj Shivashankar\",\"roleId\":\"f7bfb962-b7ed-497d-bf02-87b21d3b1b45\",\"roleName\":\"Task Owner\",\"duration\":\"12:00\",\"endDate\":\"2023-03-31\",\"startDate\":\"2023-03-17\"}]",
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": false,
+          "isCalculated": false,
+          "fieldEditableModes": [
+            "dd39bc1d-ea9f-4327-892e-6289815bc737",
+            "3cc386f4-9d1b-44c6-9a3b-25980bf4efa0"
+          ]
+        },
+        {
+          "key": "Result",
+          "index": 3,
+          "title": "Result",
+          "value": "",
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": true,
+          "isCalculated": false,
+          "fieldEditableModes": ["3cc386f4-9d1b-44c6-9a3b-25980bf4efa0"]
+        },
+        {
+          "key": "DefaultIsCompleted",
+          "index": 4,
+          "title": "Is Required",
+          "value": "",
+          "selected": false,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": false,
+          "isCalculated": false,
+          "fieldEditableModes": ["3cc386f4-9d1b-44c6-9a3b-25980bf4efa0"]
+        }
+      ],
+      "assignedUsers": [
+        {
+          "id": null,
+          "acceptStatus": "Pending",
+          "userId": "88e8afb3729a49ec9c90ba1dc5eae508",
+          "userFullName": "Manoj Shivashankar",
+          "roleId": "f7bfb962-b7ed-497d-bf02-87b21d3b1b45",
+          "roleName": "Task Owner",
+          "duration": "12:00",
+          "endDate": "2023-03-31",
+          "startDate": "2023-03-17"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "taskTypeId": "{{ExpBlockTypeId}}",
+      "blockGroupId": "53cee095-22e4-48e0-97df-4428318cac72",
+      "blockGroupTitle": "Consideration Block",
+      "title": "Consideration",
+      "componentKey": "ConsiderationBlockComponent",
+      "isRequired": false,
+      "isDuplicationAllowed": true,
+      "childBlocks": [],
+      "fields": [
+        {
+          "key": "DueDate",
+          "index": 1,
+          "title": "DueDate",
+          "value": "2023-05-29T18:30:00.000Z",
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": false,
+          "isCalculated": false,
+          "fieldEditableModes": [
+            "dd39bc1d-ea9f-4327-892e-6289815bc737",
+            "3cc386f4-9d1b-44c6-9a3b-25980bf4efa0"
+          ]
+        },
+        {
+          "key": "AssignUser",
+          "index": 2,
+          "title": "Assign User",
+          "value": "[{\"id\":null,\"acceptStatus\":\"Pending\",\"userId\":\"88e8afb3729a49ec9c90ba1dc5eae508\",\"userFullName\":\"Manoj Shivashankar\",\"roleId\":\"f7bfb962-b7ed-497d-bf02-87b21d3b1b45\",\"roleName\":\"Task Owner\",\"duration\":\"12:00\",\"endDate\":\"2023-03-31\",\"startDate\":\"2023-03-24\"}]",
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": false,
+          "isCalculated": false,
+          "fieldEditableModes": [
+            "dd39bc1d-ea9f-4327-892e-6289815bc737",
+            "3cc386f4-9d1b-44c6-9a3b-25980bf4efa0"
+          ]
+        },
+        {
+          "key": "Consideration",
+          "index": 3,
+          "title": "Consideration",
+          "value": "",
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": true,
+          "isCalculated": false,
+          "fieldEditableModes": ["3cc386f4-9d1b-44c6-9a3b-25980bf4efa0"]
+        },
+        {
+          "key": "DefaultIsCompleted",
+          "index": 4,
+          "title": "Is Required",
+          "value": "",
+          "selected": false,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": false,
+          "isCalculated": false,
+          "fieldEditableModes": ["3cc386f4-9d1b-44c6-9a3b-25980bf4efa0"]
+        }
+      ],
+      "assignedUsers": [
+        {
+          "id": null,
+          "acceptStatus": "Pending",
+          "userId": "88e8afb3729a49ec9c90ba1dc5eae508",
+          "userFullName": "Manoj Shivashankar",
+          "roleId": "f7bfb962-b7ed-497d-bf02-87b21d3b1b45",
+          "roleName": "Task Owner",
+          "duration": "12:00",
+          "endDate": "2023-03-31",
+          "startDate": "2023-03-24"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "taskTypeId": "{{ExpBlockTypeId}}",
+      "blockGroupId": "c3d392a6-880b-4544-90b5-7db37c5568c1",
+      "blockGroupTitle": "Review Block",
+      "title": "Approve",
+      "componentKey": "ReviewBlockComponent",
+      "isRequired": false,
+      "isDuplicationAllowed": true,
+      "childBlocks": [],
+      "fields": [
+        {
+          "key": "DueDate",
+          "index": 1,
+          "title": "Due Date",
+          "value": "2023-05-29T18:30:00.000Z",
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": false,
+          "isCalculated": false,
+          "fieldEditableModes": [
+            "dd39bc1d-ea9f-4327-892e-6289815bc737",
+            "3cc386f4-9d1b-44c6-9a3b-25980bf4efa0"
+          ]
+        },
+        {
+          "key": "AssignAprover",
+          "index": 2,
+          "title": "Assign Approve",
+          "value": "",
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": true,
+          "isCalculated": false,
+          "fieldEditableModes": [
+            "dd39bc1d-ea9f-4327-892e-6289815bc737",
+            "3cc386f4-9d1b-44c6-9a3b-25980bf4efa0"
+          ]
+        },
+        {
+          "key": "Comments",
+          "index": 3,
+          "title": "Comments",
+          "value": "",
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": true,
+          "isCalculated": false,
+          "fieldEditableModes": ["3cc386f4-9d1b-44c6-9a3b-25980bf4efa0"]
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "taskTypeId": "{{ExpBlockTypeId}}",
+      "blockGroupId": "c3d392a6-880b-4544-90b5-7db37c5568c1",
+      "blockGroupTitle": "Review Block",
+      "title": "Review",
+      "componentKey": "ReviewBlockComponent",
+      "isRequired": false,
+      "isDuplicationAllowed": true,
+      "childBlocks": [],
+      "fields": [
+        {
+          "key": "DueDate",
+          "index": 1,
+          "title": "Due Date",
+          "value": "2023-05-29T18:30:00.000Z",
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": false,
+          "isCalculated": false,
+          "fieldEditableModes": [
+            "3cc386f4-9d1b-44c6-9a3b-25980bf4efa0",
+            "dd39bc1d-ea9f-4327-892e-6289815bc737"
+          ]
+        },
+        {
+          "key": "AssignReviewer",
+          "index": 2,
+          "title": "Assign Reviewer",
+          "value": "",
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": true,
+          "isCalculated": false,
+          "fieldEditableModes": [
+            "3cc386f4-9d1b-44c6-9a3b-25980bf4efa0",
+            "dd39bc1d-ea9f-4327-892e-6289815bc737"
+          ]
+        },
+        {
+          "key": "Comments",
+          "index": 3,
+          "title": "Comments",
+          "value": "",
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": true,
+          "isCalculated": false,
+          "fieldEditableModes": ["3cc386f4-9d1b-44c6-9a3b-25980bf4efa0"]
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "taskTypeId": "{{ExpBlockTypeId}}",
+      "blockGroupId": "d53e2171-6cd5-4303-b7c2-9b673c1fbce9",
+      "blockGroupTitle": "Reference Block",
+      "title": "Reference",
+      "componentKey": "ReferenceBlockComponent",
+      "isRequired": false,
+      "isDuplicationAllowed": true,
+      "childBlocks": [],
+      "fields": [
+        {
+          "key": "Upload",
+          "index": 1,
+          "title": "Upload",
+          "value": "",
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": false,
+          "isCalculated": false,
+          "fieldEditableModes": [
+            "3cc386f4-9d1b-44c6-9a3b-25980bf4efa0",
+            "c87c86b8-d1d1-4179-842f-2dfa04db6756",
+            "dd39bc1d-ea9f-4327-892e-6289815bc737"
+          ]
+        },
+        {
+          "key": "Text",
+          "index": 2,
+          "title": "Text",
+          "value": "",
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": true,
+          "isCalculated": false,
+          "fieldEditableModes": [
+            "c87c86b8-d1d1-4179-842f-2dfa04db6756",
+            "dd39bc1d-ea9f-4327-892e-6289815bc737",
+            "3cc386f4-9d1b-44c6-9a3b-25980bf4efa0"
+          ]
+        },
+        {
+          "key": "Link",
+          "index": 3,
+          "title": "Link",
+          "value": "www.test.com",
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": false,
+          "isCalculated": false,
+          "fieldEditableModes": [
+            "c87c86b8-d1d1-4179-842f-2dfa04db6756",
+            "dd39bc1d-ea9f-4327-892e-6289815bc737",
+            "3cc386f4-9d1b-44c6-9a3b-25980bf4efa0"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "taskTypeId": "{{ExpBlockTypeId}}",
+      "blockGroupId": "5e4ad068-2bfb-42a5-bfa5-0f314f3d7ca4",
+      "blockGroupTitle": "Inventory Block",
+      "title": "Inventory",
+      "componentKey": "InventoryBlockComponent",
+      "isRequired": false,
+      "isDuplicationAllowed": true,
+      "childBlocks": [],
+      "fields": [
+        {
+          "key": "Instrument",
+          "index": 1,
+          "title": "Instrument",
+          "value": "[\"96\"]",
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": false,
+          "isCalculated": false,
+          "fieldEditableModes": [
+            "dd39bc1d-ea9f-4327-892e-6289815bc737",
+            "3cc386f4-9d1b-44c6-9a3b-25980bf4efa0"
+          ]
+        },
+        {
+          "key": "Reagent",
+          "index": 2,
+          "title": "Reagent",
+          "value": "[94]",
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": false,
+          "isCalculated": false,
+          "fieldEditableModes": [
+            "dd39bc1d-ea9f-4327-892e-6289815bc737",
+            "3cc386f4-9d1b-44c6-9a3b-25980bf4efa0"
+          ]
+        },
+        {
+          "key": "Equipment",
+          "index": 3,
+          "title": "Equipment",
+          "value": "[\"93\"]",
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": false,
+          "isCalculated": false,
+          "fieldEditableModes": [
+            "dd39bc1d-ea9f-4327-892e-6289815bc737",
+            "3cc386f4-9d1b-44c6-9a3b-25980bf4efa0"
+          ]
+        },
+        {
+          "key": "Sample",
+          "index": 3,
+          "title": "Sample",
+          "value": "[76]",
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": false,
+          "isCalculated": false,
+          "fieldEditableModes": [
+            "3cc386f4-9d1b-44c6-9a3b-25980bf4efa0",
+            "dd39bc1d-ea9f-4327-892e-6289815bc737"
+          ]
+        }
+      ]
+    }
+  ]
+}

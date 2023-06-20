@@ -1,0 +1,12 @@
+{
+  "id": "20",
+  "userId": "cb222c6192cf48148f06e8e66a72d674",
+  "subject": "string",
+  "startTime": "2023-06-30T07:33:25.938Z",
+  "endTime": "2023-07-31T07:33:25.938Z",
+  "startTimeZone": "string",
+  "endTimeZone": "string",
+  "isAllDay": true,
+  "location": "string",
+  "recurrenceRule": "string"
+}

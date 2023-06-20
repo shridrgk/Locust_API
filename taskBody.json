@@ -1,0 +1,787 @@
+{
+  "taskTypeId": "404457bf-c683-465b-aeb1-6407267551bf",
+  "title": "nfr-test002",
+  "referenceTemplateId": "",
+  "referenceTemplateVersion": "1.001",
+  "projectId": "YG_PJ__DEMO_0001",
+  "blocks": [
+    {
+      "index": 1,
+      "blockTypeId": "404457bf-c683-465b-aeb1-6407267551bf",
+      "blockGroupId": "b5807cb8-52d1-4032-a656-4f451af66567",
+      "blockGroupTitle": "General Information",
+      "title": "General Information",
+      "componentKey": "DefaultBlockComponent",
+      "isRequired": true,
+      "isDuplicationAllowed": false,
+      "childBlocks": [],
+      "fields": [
+        {
+          "key": "DefaultTitle",
+          "index": 1,
+          "title": "Name",
+          "value": "nfr-test002",
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": true,
+          "isCalculated": false,
+          "fieldEditableModes": [
+            "954e62ad-fbf4-4292-87ef-675be743ea41",
+            "10b6604f-a830-4b98-b481-7c199e9cc4b6"
+          ]
+        },
+        {
+          "key": "DefaultTags",
+          "index": 2,
+          "title": "Tags",
+          "value": "[\"taag\"]",
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": true,
+          "isCalculated": false,
+          "fieldEditableModes": [
+            "10b6604f-a830-4b98-b481-7c199e9cc4b6",
+            "954e62ad-fbf4-4292-87ef-675be743ea41"
+          ]
+        },
+        {
+          "key": "DefaultPriority",
+          "index": 3,
+          "title": "Priority",
+          "value": "Medium",
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": true,
+          "isCalculated": false,
+          "fieldEditableModes": [
+            "4dcc119b-c59a-4b61-b160-19a3360bc0ca",
+            "10b6604f-a830-4b98-b481-7c199e9cc4b6"
+          ]
+        },
+        {
+          "key": "DefaultDuration",
+          "index": 4,
+          "title": "Duration",
+          "value": "12:00",
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": true,
+          "isCalculated": false,
+          "fieldEditableModes": [
+            "4dcc119b-c59a-4b61-b160-19a3360bc0ca",
+            "10b6604f-a830-4b98-b481-7c199e9cc4b6"
+          ]
+        },
+        {
+          "key": "DefaultStartDate",
+          "index": 5,
+          "title": "Start Date",
+          "value": "2023-06-29T18:30:00.000Z",
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": true,
+          "isCalculated": false,
+          "fieldEditableModes": [
+            "4dcc119b-c59a-4b61-b160-19a3360bc0ca",
+            "10b6604f-a830-4b98-b481-7c199e9cc4b6"
+          ]
+        },
+        {
+          "key": "DefaultEndDate",
+          "index": 6,
+          "title": "End Date",
+          "value": "2023-06-29T18:30:00.000Z",
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": true,
+          "isCalculated": false,
+          "fieldEditableModes": [
+            "4dcc119b-c59a-4b61-b160-19a3360bc0ca",
+            "10b6604f-a830-4b98-b481-7c199e9cc4b6"
+          ]
+        },
+        {
+          "key": "DefaultDescription",
+          "index": 7,
+          "title": "Objective",
+          "value": "<p>testig</p>",
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": true,
+          "isCalculated": false,
+          "fieldEditableModes": [
+            "10b6604f-a830-4b98-b481-7c199e9cc4b6",
+            "954e62ad-fbf4-4292-87ef-675be743ea41",
+            "4dcc119b-c59a-4b61-b160-19a3360bc0ca"
+          ]
+        },
+        {
+          "key": "DefaultAssignUser",
+          "index": 8,
+          "title": "Assign User",
+          "value": null,
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": false,
+          "isCalculated": false,
+          "fieldEditableModes": [
+            "10b6604f-a830-4b98-b481-7c199e9cc4b6",
+            "4dcc119b-c59a-4b61-b160-19a3360bc0ca"
+          ]
+        },
+        {
+          "key": "DefaultIsCompleted",
+          "index": 9,
+          "title": "Is Required",
+          "value": null,
+          "selected": false,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": false,
+          "isCalculated": false,
+          "fieldEditableModes": ["4dcc119b-c59a-4b61-b160-19a3360bc0ca"]
+        }
+      ],
+      "id": "1686592630538",
+      "childBlockOptions": []
+    },
+    {
+      "index": 2,
+      "blockTypeId": "404457bf-c683-465b-aeb1-6407267551bf",
+      "blockGroupId": "153edc57-bb78-4ae2-a16b-3a40081fa043",
+      "blockGroupTitle": "Steps",
+      "title": "Instruction",
+      "componentKey": "InstructionBlockComponent",
+      "isRequired": false,
+      "isDuplicationAllowed": true,
+      "childBlocks": [],
+      "fields": [
+        {
+          "key": "InstructionTitle",
+          "index": 1,
+          "title": "Name",
+          "value": "testing",
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": true,
+          "isCalculated": false,
+          "fieldEditableModes": [
+            "10b6604f-a830-4b98-b481-7c199e9cc4b6",
+            "4dcc119b-c59a-4b61-b160-19a3360bc0ca",
+            "954e62ad-fbf4-4292-87ef-675be743ea41"
+          ]
+        },
+        {
+          "key": "InstructionDescription",
+          "index": 2,
+          "title": "Description",
+          "value": "testing",
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": true,
+          "isCalculated": false,
+          "fieldEditableModes": [
+            "10b6604f-a830-4b98-b481-7c199e9cc4b6",
+            "954e62ad-fbf4-4292-87ef-675be743ea41",
+            "4dcc119b-c59a-4b61-b160-19a3360bc0ca"
+          ]
+        },
+        {
+          "key": "InstructionAssignUser",
+          "index": 3,
+          "title": "Assign User",
+          "value": null,
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": false,
+          "isCalculated": false,
+          "fieldEditableModes": [
+            "4dcc119b-c59a-4b61-b160-19a3360bc0ca",
+            "10b6604f-a830-4b98-b481-7c199e9cc4b6"
+          ]
+        },
+        {
+          "key": "InstructionBrowseTemplate",
+          "index": 4,
+          "title": "Browse SOP",
+          "value": null,
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": false,
+          "isCalculated": false,
+          "fieldEditableModes": [
+            "10b6604f-a830-4b98-b481-7c199e9cc4b6",
+            "4dcc119b-c59a-4b61-b160-19a3360bc0ca"
+          ]
+        },
+        {
+          "key": "InstructionProcedure",
+          "index": 5,
+          "title": "Procedure",
+          "value": null,
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": false,
+          "isCalculated": false,
+          "fieldEditableModes": [
+            "4dcc119b-c59a-4b61-b160-19a3360bc0ca",
+            "954e62ad-fbf4-4292-87ef-675be743ea41",
+            "10b6604f-a830-4b98-b481-7c199e9cc4b6"
+          ]
+        },
+        {
+          "key": "DefaultIsCompleted",
+          "index": 6,
+          "title": "Is Required",
+          "value": null,
+          "selected": false,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": false,
+          "isCalculated": false,
+          "fieldEditableModes": ["4dcc119b-c59a-4b61-b160-19a3360bc0ca"]
+        }
+      ],
+      "id": "1686592630539",
+      "childBlockOptions": [
+        {
+          "index": 0,
+          "blockTypeId": "404457bf-c683-465b-aeb1-6407267551bf",
+          "blockGroupId": null,
+          "blockGroupTitle": null,
+          "title": "Step",
+          "componentKey": "AcknowledgeBlock",
+          "isRequired": false,
+          "isDuplicationAllowed": false,
+          "childBlocks": null,
+          "fields": [
+            {
+              "key": "Acknowledge",
+              "index": 1,
+              "title": "Acknowledge",
+              "value": null,
+              "selected": true,
+              "disabled": false,
+              "isRepeatable": false,
+              "isNonConfigurable": false,
+              "isCalculated": false,
+              "fieldEditableModes": ["4dcc119b-c59a-4b61-b160-19a3360bc0ca"]
+            },
+            {
+              "key": "AcknowledgeLabel",
+              "index": 2,
+              "title": "Acknowledge Label",
+              "value": null,
+              "selected": true,
+              "disabled": false,
+              "isRepeatable": false,
+              "isNonConfigurable": false,
+              "isCalculated": false,
+              "fieldEditableModes": [
+                "10b6604f-a830-4b98-b481-7c199e9cc4b6",
+                "954e62ad-fbf4-4292-87ef-675be743ea41"
+              ]
+            },
+            {
+              "key": "AcknowledgeDuration",
+              "index": 3,
+              "title": "Duration",
+              "value": null,
+              "selected": true,
+              "disabled": false,
+              "isRepeatable": false,
+              "isNonConfigurable": false,
+              "isCalculated": false,
+              "fieldEditableModes": [
+                "4dcc119b-c59a-4b61-b160-19a3360bc0ca",
+                "10b6604f-a830-4b98-b481-7c199e9cc4b6",
+                "954e62ad-fbf4-4292-87ef-675be743ea41"
+              ]
+            },
+            {
+              "key": "AcknowledgeRepeat",
+              "index": 4,
+              "title": "Repeat",
+              "value": null,
+              "selected": false,
+              "disabled": false,
+              "isRepeatable": true,
+              "isNonConfigurable": false,
+              "isCalculated": false,
+              "fieldEditableModes": [
+                "10b6604f-a830-4b98-b481-7c199e9cc4b6",
+                "4dcc119b-c59a-4b61-b160-19a3360bc0ca"
+              ]
+            },
+            {
+              "key": "Description",
+              "index": 5,
+              "title": "Description",
+              "value": null,
+              "selected": true,
+              "disabled": false,
+              "isRepeatable": false,
+              "isNonConfigurable": false,
+              "isCalculated": false,
+              "fieldEditableModes": [
+                "10b6604f-a830-4b98-b481-7c199e9cc4b6",
+                "954e62ad-fbf4-4292-87ef-675be743ea41",
+                "4dcc119b-c59a-4b61-b160-19a3360bc0ca"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "blockTypeId": "404457bf-c683-465b-aeb1-6407267551bf",
+      "blockGroupId": "f6da74e9-78a1-48c9-a042-4d8db3704dbd",
+      "blockGroupTitle": "Result",
+      "title": "Result",
+      "componentKey": "ResultBlockComponent",
+      "isRequired": false,
+      "isDuplicationAllowed": true,
+      "childBlocks": [],
+      "fields": [
+        {
+          "key": "DueDate",
+          "index": 1,
+          "title": "DueDate",
+          "value": "2023-06-29T18:30:00.000Z",
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": false,
+          "isCalculated": false,
+          "fieldEditableModes": [
+            "10b6604f-a830-4b98-b481-7c199e9cc4b6",
+            "4dcc119b-c59a-4b61-b160-19a3360bc0ca"
+          ]
+        },
+        {
+          "key": "AssignUser",
+          "index": 2,
+          "title": "Assign User",
+          "value": null,
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": false,
+          "isCalculated": false,
+          "fieldEditableModes": [
+            "4dcc119b-c59a-4b61-b160-19a3360bc0ca",
+            "10b6604f-a830-4b98-b481-7c199e9cc4b6"
+          ]
+        },
+        {
+          "key": "Result",
+          "index": 3,
+          "title": "Result",
+          "value": null,
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": true,
+          "isCalculated": false,
+          "fieldEditableModes": ["4dcc119b-c59a-4b61-b160-19a3360bc0ca"]
+        },
+        {
+          "key": "DefaultIsCompleted",
+          "index": 4,
+          "title": "Is Required",
+          "value": null,
+          "selected": false,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": false,
+          "isCalculated": false,
+          "fieldEditableModes": ["4dcc119b-c59a-4b61-b160-19a3360bc0ca"]
+        }
+      ],
+      "id": "1686592630540",
+      "childBlockOptions": []
+    },
+    {
+      "index": 4,
+      "blockTypeId": "404457bf-c683-465b-aeb1-6407267551bf",
+      "blockGroupId": "12f6bc1b-acb6-49c8-abc7-66d9246f2f6e",
+      "blockGroupTitle": "Consideration",
+      "title": "Consideration",
+      "componentKey": "ConsiderationBlockComponent",
+      "isRequired": false,
+      "isDuplicationAllowed": true,
+      "childBlocks": [],
+      "fields": [
+        {
+          "key": "DueDate",
+          "index": 1,
+          "title": "DueDate",
+          "value": "2023-06-29T18:30:00.000Z",
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": false,
+          "isCalculated": false,
+          "fieldEditableModes": [
+            "4dcc119b-c59a-4b61-b160-19a3360bc0ca",
+            "10b6604f-a830-4b98-b481-7c199e9cc4b6"
+          ]
+        },
+        {
+          "key": "AssignUser",
+          "index": 2,
+          "title": "Assign User",
+          "value": null,
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": false,
+          "isCalculated": false,
+          "fieldEditableModes": [
+            "10b6604f-a830-4b98-b481-7c199e9cc4b6",
+            "4dcc119b-c59a-4b61-b160-19a3360bc0ca"
+          ]
+        },
+        {
+          "key": "Consideration",
+          "index": 3,
+          "title": "Consideration",
+          "value": null,
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": true,
+          "isCalculated": false,
+          "fieldEditableModes": ["4dcc119b-c59a-4b61-b160-19a3360bc0ca"]
+        },
+        {
+          "key": "DefaultIsCompleted",
+          "index": 4,
+          "title": "Is Required",
+          "value": null,
+          "selected": false,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": false,
+          "isCalculated": false,
+          "fieldEditableModes": ["4dcc119b-c59a-4b61-b160-19a3360bc0ca"]
+        }
+      ],
+      "id": "1686592630541",
+      "childBlockOptions": []
+    },
+    {
+      "index": 5,
+      "blockTypeId": "404457bf-c683-465b-aeb1-6407267551bf",
+      "blockGroupId": "2973af01-d4eb-4657-b75b-e27a9444a73b",
+      "blockGroupTitle": "Review",
+      "title": "Approve",
+      "componentKey": "ReviewBlockComponent",
+      "isRequired": false,
+      "isDuplicationAllowed": true,
+      "childBlocks": [],
+      "fields": [
+        {
+          "key": "DueDate",
+          "index": 1,
+          "title": "Due Date",
+          "value": "2023-06-29T18:30:00.000Z",
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": false,
+          "isCalculated": false,
+          "fieldEditableModes": [
+            "4dcc119b-c59a-4b61-b160-19a3360bc0ca",
+            "10b6604f-a830-4b98-b481-7c199e9cc4b6"
+          ]
+        },
+        {
+          "key": "AssignAprover",
+          "index": 2,
+          "title": "Assign Approve",
+          "value": null,
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": true,
+          "isCalculated": false,
+          "fieldEditableModes": [
+            "4dcc119b-c59a-4b61-b160-19a3360bc0ca",
+            "10b6604f-a830-4b98-b481-7c199e9cc4b6"
+          ]
+        },
+        {
+          "key": "Action",
+          "index": 3,
+          "title": "Approve",
+          "value": null,
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": false,
+          "isCalculated": false,
+          "fieldEditableModes": ["4dcc119b-c59a-4b61-b160-19a3360bc0ca"]
+        },
+        {
+          "key": "Remark",
+          "index": 4,
+          "title": "Rejection Remark",
+          "value": null,
+          "selected": false,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": true,
+          "isCalculated": false,
+          "fieldEditableModes": ["4dcc119b-c59a-4b61-b160-19a3360bc0ca"]
+        },
+        {
+          "key": "Comments",
+          "index": 5,
+          "title": "Comments",
+          "value": null,
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": true,
+          "isCalculated": false,
+          "fieldEditableModes": ["4dcc119b-c59a-4b61-b160-19a3360bc0ca"]
+        }
+      ],
+      "id": "1686592630542",
+      "childBlockOptions": []
+    },
+    {
+      "index": 6,
+      "blockTypeId": "404457bf-c683-465b-aeb1-6407267551bf",
+      "blockGroupId": "2973af01-d4eb-4657-b75b-e27a9444a73b",
+      "blockGroupTitle": "Review",
+      "title": "Review",
+      "componentKey": "ReviewBlockComponent",
+      "isRequired": false,
+      "isDuplicationAllowed": true,
+      "childBlocks": [],
+      "fields": [
+        {
+          "key": "DueDate",
+          "index": 1,
+          "title": "Due Date",
+          "value": "2023-06-29T18:30:00.000Z",
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": false,
+          "isCalculated": false,
+          "fieldEditableModes": [
+            "4dcc119b-c59a-4b61-b160-19a3360bc0ca",
+            "10b6604f-a830-4b98-b481-7c199e9cc4b6"
+          ]
+        },
+        {
+          "key": "AssignReviewer",
+          "index": 2,
+          "title": "Assign Reviewer",
+          "value": null,
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": true,
+          "isCalculated": false,
+          "fieldEditableModes": [
+            "4dcc119b-c59a-4b61-b160-19a3360bc0ca",
+            "10b6604f-a830-4b98-b481-7c199e9cc4b6"
+          ]
+        },
+        {
+          "key": "Action",
+          "index": 3,
+          "title": "Approve",
+          "value": null,
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": false,
+          "isCalculated": false,
+          "fieldEditableModes": ["4dcc119b-c59a-4b61-b160-19a3360bc0ca"]
+        },
+        {
+          "key": "Remark",
+          "index": 4,
+          "title": "Rejection Remark",
+          "value": null,
+          "selected": false,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": true,
+          "isCalculated": false,
+          "fieldEditableModes": ["4dcc119b-c59a-4b61-b160-19a3360bc0ca"]
+        },
+        {
+          "key": "Comments",
+          "index": 5,
+          "title": "Comments",
+          "value": null,
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": true,
+          "isCalculated": false,
+          "fieldEditableModes": ["4dcc119b-c59a-4b61-b160-19a3360bc0ca"]
+        }
+      ],
+      "id": "1686592630543",
+      "childBlockOptions": []
+    },
+    {
+      "index": 7,
+      "blockTypeId": "404457bf-c683-465b-aeb1-6407267551bf",
+      "blockGroupId": "91de8c24-6484-427c-8ed4-9002602c6ece",
+      "blockGroupTitle": "Reference",
+      "title": "Reference",
+      "componentKey": "ReferenceBlockComponent",
+      "isRequired": false,
+      "isDuplicationAllowed": true,
+      "childBlocks": [],
+      "fields": [
+        {
+          "key": "Upload",
+          "index": 1,
+          "title": "Upload",
+          "value": null,
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": false,
+          "isCalculated": false,
+          "fieldEditableModes": [
+            "4dcc119b-c59a-4b61-b160-19a3360bc0ca",
+            "10b6604f-a830-4b98-b481-7c199e9cc4b6"
+          ]
+        },
+        {
+          "key": "Text",
+          "index": 2,
+          "title": "Text",
+          "value": null,
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": true,
+          "isCalculated": false,
+          "fieldEditableModes": [
+            "954e62ad-fbf4-4292-87ef-675be743ea41",
+            "10b6604f-a830-4b98-b481-7c199e9cc4b6",
+            "4dcc119b-c59a-4b61-b160-19a3360bc0ca"
+          ]
+        },
+        {
+          "key": "Link",
+          "index": 3,
+          "title": "Link",
+          "value": null,
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": false,
+          "isCalculated": false,
+          "fieldEditableModes": [
+            "954e62ad-fbf4-4292-87ef-675be743ea41",
+            "4dcc119b-c59a-4b61-b160-19a3360bc0ca",
+            "10b6604f-a830-4b98-b481-7c199e9cc4b6"
+          ]
+        }
+      ],
+      "id": "1686592630544",
+      "childBlockOptions": []
+    },
+    {
+      "index": 8,
+      "blockTypeId": "404457bf-c683-465b-aeb1-6407267551bf",
+      "blockGroupId": "ff45b475-12b4-4e81-ab55-faabcd831ebe",
+      "blockGroupTitle": "Inventory",
+      "title": "Inventory",
+      "componentKey": "InventoryBlockComponent",
+      "isRequired": false,
+      "isDuplicationAllowed": true,
+      "childBlocks": [],
+      "fields": [
+        {
+          "key": "Instrument",
+          "index": 1,
+          "title": "Instrument",
+          "value": null,
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": false,
+          "isCalculated": false,
+          "fieldEditableModes": [
+            "4dcc119b-c59a-4b61-b160-19a3360bc0ca",
+            "10b6604f-a830-4b98-b481-7c199e9cc4b6"
+          ]
+        },
+        {
+          "key": "Reagent",
+          "index": 2,
+          "title": "Reagent",
+          "value": null,
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": false,
+          "isCalculated": false,
+          "fieldEditableModes": [
+            "4dcc119b-c59a-4b61-b160-19a3360bc0ca",
+            "10b6604f-a830-4b98-b481-7c199e9cc4b6"
+          ]
+        },
+        {
+          "key": "Sample",
+          "index": 3,
+          "title": "Sample",
+          "value": null,
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": false,
+          "isCalculated": false,
+          "fieldEditableModes": [
+            "4dcc119b-c59a-4b61-b160-19a3360bc0ca",
+            "10b6604f-a830-4b98-b481-7c199e9cc4b6"
+          ]
+        },
+        {
+          "key": "Equipment",
+          "index": 3,
+          "title": "Equipment",
+          "value": null,
+          "selected": true,
+          "disabled": false,
+          "isRepeatable": false,
+          "isNonConfigurable": false,
+          "isCalculated": false,
+          "fieldEditableModes": [
+            "4dcc119b-c59a-4b61-b160-19a3360bc0ca",
+            "10b6604f-a830-4b98-b481-7c199e9cc4b6"
+          ]
+        }
+      ],
+      "id": "1686592630545",
+      "childBlockOptions": []
+    }
+  ]
+}

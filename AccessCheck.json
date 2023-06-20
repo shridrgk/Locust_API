@@ -1,0 +1,22 @@
+{
+  "RouteTemplate": "v{version:apiVersion}/Project/{id}",
+  "RequestType": "GET",
+  "RouteDataValues": [
+    {
+      "RouteVariable": "action",
+      "RouteValue": "GetById"
+    },
+    {
+      "RouteVariable": "controller",
+      "RouteValue": "Project"
+    },
+    {
+      "RouteVariable": "id",
+      "RouteValue": "YG_PJ__DEMO_0001"
+    },
+    {
+      "RouteVariable": "version",
+      "RouteValue": "1"
+    }
+  ]
+}
